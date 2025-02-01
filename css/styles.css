@@ -11252,6 +11252,8 @@ header.masthead .site-heading .h1 {
   display: block;
   height: 65px; /* Adjust the height as needed for larger screens */
   width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-img-small {
@@ -11268,6 +11270,8 @@ header.masthead .site-heading .h1 {
     display: block;
     height: auto;
     max-width: 100%; /* Adjust the height as needed for smaller screens */
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
