@@ -11277,44 +11277,26 @@ header.masthead .site-heading .h1 {
 
 
 /* Default size for larger screens */
-.navbar-light .navbar-logo-dark {
-  display: none;
-}
-
-/* Default size for larger screens */
-.navbar-light .navbar-logo-light {
+.navbar-logo-large {
   display: block;
   height: 40px; /* Adjust the height as needed for larger screens */
   width: auto;
 }
 
+/* Default size for larger screens */
+.navbar-logo-small {
+  display: none;
+}
+
 /* Responsive size for smaller screens */
 @media (max-width: 768px) {
-  .navbar-light .navbar-logo-light {
+  .navbar-logo-large {
+    display: none;
+}
+  .navbar-logo-small {
     display: block;
     height: auto;
     max-width: 100%; /* Adjust the height as needed for smaller screens */
   }
 }
 
-
-/* Default size for larger screens */
-.navbar-dark .navbar-logo-light {
-  display: none;
-}
-
-/* Default size for larger screens */
-.navbar-dark .navbar-logo-dark {
-  display: block;
-  height: 40px; /* Adjust the height as needed for larger screens */
-  width: auto;
-}
-
-/* Responsive size for smaller screens */
-@media (max-width: 768px) {
-  .navbar-dark .navbar-logo-dark {
-    display: block; 
-    height: auto;
-    max-width: 100%; /* Adjust the height as needed for smaller screens */
-  }
-}
