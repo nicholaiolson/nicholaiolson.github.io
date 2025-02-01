@@ -11246,3 +11246,22 @@ header.masthead .site-heading .h1 {
     font-size: 2.25rem;
   }
 }
+
+/* Default size for larger screens */
+.logo-img {
+  height: 60px; /* Adjust the height as needed for larger screens */
+}
+
+/* Responsive size for smaller screens */
+@media (max-width: 768px) {
+  .logo-img {
+      height: 40px; /* Adjust the height as needed for smaller screens */
+  }
+}
+
+/* Responsive size for very small screens */
+@media (max-width: 480px) {
+  .logo-img {
+      height: 30px; /* Adjust the height as needed for very small screens */
+  }
+}
