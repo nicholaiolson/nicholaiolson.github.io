@@ -11255,13 +11255,13 @@ header.masthead .site-heading .h1 {
 /* Responsive size for smaller screens */
 @media (max-width: 768px) {
   .logo-img {
-      height: 40px; /* Adjust the height as needed for smaller screens */
+    max-width: 100%; /* Adjust the height as needed for smaller screens */
   }
 }
 
 /* Responsive size for very small screens */
 @media (max-width: 480px) {
   .logo-img {
-      height: 30px; /* Adjust the height as needed for very small screens */
+    max-width: 100%; /* Adjust the height as needed for very small screens */
   }
 }
