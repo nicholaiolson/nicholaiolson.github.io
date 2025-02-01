@@ -11248,23 +11248,25 @@ header.masthead .site-heading .h1 {
 }
 
 /* Default size for larger screens */
-.logo-img {
-  height: 60px; /* Adjust the height as needed for larger screens */
+.logo-img-large {
+  display: block;
+  height: 65px; /* Adjust the height as needed for larger screens */
   width: auto;
+}
+
+.logo-img-small {
+  display: none;
 }
 
 /* Responsive size for smaller screens */
 @media (max-width: 768px) {
-  .logo-img {
+  .logo-img-large {
+        display: none;
+    }
+
+  .logo-img-small {
+    display: block;
     height: auto;
     max-width: 100%; /* Adjust the height as needed for smaller screens */
-  }
-}
-
-/* Responsive size for very small screens */
-@media (max-width: 480px) {
-  .logo-img {
-    height: auto;
-    max-width: 100%; /* Adjust the height as needed for very small screens */
   }
 }
