@@ -11286,7 +11286,7 @@ header.masthead .site-heading .h1 {
 /* Responsive size for smaller screens */
 @media (max-width: 768px) {
   .navbar-logo {
-    display: block;
+    display: block !important;;
     height: auto;
     max-width: 100%; /* Adjust the height as needed for smaller screens */
   }
