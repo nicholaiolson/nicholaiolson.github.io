@@ -11277,7 +11277,12 @@ header.masthead .site-heading .h1 {
 
 
 /* Default size for larger screens */
-.navbar-logo {
+.navbar-light .navbar-logo-dark {
+  display: none;
+}
+
+/* Default size for larger screens */
+.navbar-light .navbar-logo-light {
   display: block;
   height: 40px; /* Adjust the height as needed for larger screens */
   width: auto;
@@ -11285,14 +11290,31 @@ header.masthead .site-heading .h1 {
 
 /* Responsive size for smaller screens */
 @media (max-width: 768px) {
-  .navbar-logo {
+  .navbar-light .navbar-logo-light {
     display: block !important;;
     height: auto;
     max-width: 100%; /* Adjust the height as needed for smaller screens */
   }
 }
 
-/* Ensure the image is not being hidden */
-.navbar-logo {
-  display: block !important;
+
+/* Default size for larger screens */
+.navbar-dark .navbar-logo-light {
+  display: none;
+}
+
+/* Default size for larger screens */
+.navbar-dark .navbar-logo-dark {
+  display: block;
+  height: 40px; /* Adjust the height as needed for larger screens */
+  width: auto;
+}
+
+/* Responsive size for smaller screens */
+@media (max-width: 768px) {
+  .navbar-dark .navbar-logo-dark {
+    display: block !important;;
+    height: auto;
+    max-width: 100%; /* Adjust the height as needed for smaller screens */
+  }
 }
