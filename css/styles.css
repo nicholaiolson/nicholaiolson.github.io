@@ -11291,3 +11291,8 @@ header.masthead .site-heading .h1 {
     max-width: 100%; /* Adjust the height as needed for smaller screens */
   }
 }
+
+/* Ensure the image is not being hidden */
+.navbar-logo {
+  display: block !important;
+}
