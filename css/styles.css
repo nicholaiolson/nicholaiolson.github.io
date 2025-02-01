@@ -11291,7 +11291,7 @@ header.masthead .site-heading .h1 {
 /* Responsive size for smaller screens */
 @media (max-width: 768px) {
   .navbar-light .navbar-logo-light {
-    display: block !important;;
+    display: block;
     height: auto;
     max-width: 100%; /* Adjust the height as needed for smaller screens */
   }
@@ -11313,7 +11313,7 @@ header.masthead .site-heading .h1 {
 /* Responsive size for smaller screens */
 @media (max-width: 768px) {
   .navbar-dark .navbar-logo-dark {
-    display: block !important;;
+    display: block; 
     height: auto;
     max-width: 100%; /* Adjust the height as needed for smaller screens */
   }
