@@ -11250,11 +11250,13 @@ header.masthead .site-heading .h1 {
 /* Default size for larger screens */
 .logo-img {
   height: 60px; /* Adjust the height as needed for larger screens */
+  width: auto;
 }
 
 /* Responsive size for smaller screens */
 @media (max-width: 768px) {
   .logo-img {
+    height: auto;
     max-width: 100%; /* Adjust the height as needed for smaller screens */
   }
 }
@@ -11262,6 +11264,7 @@ header.masthead .site-heading .h1 {
 /* Responsive size for very small screens */
 @media (max-width: 480px) {
   .logo-img {
+    height: auto;
     max-width: 100%; /* Adjust the height as needed for very small screens */
   }
 }
