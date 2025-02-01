@@ -11292,7 +11292,7 @@ header.masthead .site-heading .h1 {
 @media (max-width: 768px) {
   .navbar-logo-large {
     display: none;
-}
+ }
   .navbar-logo-small {
     display: block;
     height: auto;
