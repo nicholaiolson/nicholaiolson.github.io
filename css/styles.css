@@ -11270,3 +11270,15 @@ header.masthead .site-heading .h1 {
     max-width: 100%; /* Adjust the height as needed for smaller screens */
   }
 }
+
+
+/* Default size for larger screens */
+.navbar-logo-large {
+  display: block;
+  height: 40px; /* Adjust the height as needed for larger screens */
+  width: auto;
+}
+
+.navbar-logo-small {
+  display: none;
+}
